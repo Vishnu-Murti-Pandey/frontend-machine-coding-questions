@@ -1,0 +1,40 @@
+.todo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+#input {
+    width: 350px;
+    padding: 16px;
+    outline: none;
+}
+
+.inputAndCheckBoxWrapper {
+    width: 350px;
+    display: flex;
+    border: 1px solid gray;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+
+}
+
+#editInput {
+    width: 250px;
+    border: none;
+    height: 30px;
+    outline: none;
+}
+
+.delete {
+    width: 30px;
+    cursor: pointer;
+}

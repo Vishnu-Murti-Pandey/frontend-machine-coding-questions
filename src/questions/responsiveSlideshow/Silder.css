@@ -1,0 +1,52 @@
+.img_container {
+    height: 350px;
+    width: 500px;
+    border: 2px solid brown;
+    position: relative;
+
+}
+
+.nextAndPrev {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.perv {
+    position: absolute;
+    top: 150px;
+    left: 0px
+}
+
+.next {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+}
+
+.img_container>div:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.ball_Container {
+    display: flex;
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.ball:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
