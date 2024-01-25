@@ -5,6 +5,8 @@ import React, { useEffect, useRef, useState } from 'react'
 // on stop this counter should pause
 // on start click again resume the counter
 
+// 2 ways to solve -> 1. using setInterval & 2/ using setTimeout
+
 const Counter = () => {
 
     const [counter, setCounter] = useState(0);

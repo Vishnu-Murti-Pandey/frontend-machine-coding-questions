@@ -12,6 +12,9 @@ import ModalWrapper from './questions/modalInReact/ModalWrapper';
 import Website from './questions/websiteWalkThroughHelper/Website';
 import Product from './questions/captureProduct/Product';
 import Counter from './questions/incrementCounter/Counter';
+import DebounceThrottle from './questions/handleDebouncingAndThrotling/DebounceThrottle';
+import File from './questions/filerExplorer/File';
+import explorer from './questions/filerExplorer/folderData';
 
 function App() {
   return (
@@ -23,12 +26,14 @@ function App() {
       {/* <WhyDidYouUpdateHook /> */}
       {/* <StepperWrapper /> */}
       {/* <TodoList /> */}
-      {/* <SearchWithPagination /> */}
+      <SearchWithPagination />
       {/* <Slideshow /> */}
       {/* <ModalWrapper /> */}
       {/* <Website /> */}
       {/* <Product /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <DebounceThrottle /> */}
+      {/* <File explorer={explorer} /> */}
     </>
   );
 }

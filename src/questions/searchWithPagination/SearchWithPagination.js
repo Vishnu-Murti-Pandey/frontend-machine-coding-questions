@@ -49,11 +49,7 @@ const SearchWithPagination = () => {
         </select>
       </div>
 
-      {dataList.filter((item, index) => {
-        if (index < page * 10) {
-          return item;
-        }
-      }).filter((item) => {
+      {dataList.filter((item) => {
         if (!searchData) {
           return item;
         }

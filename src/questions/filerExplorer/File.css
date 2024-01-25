@@ -1,0 +1,25 @@
+.folder {
+    width: 300px;
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+    padding: 3px;
+    margin-top: 6px;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+}
+
+.folder>span {
+    padding: 2px;
+}
+
+.btns>button {
+    cursor: pointer;
+}
+
+.file {
+    display: flex;
+    padding-left: 25px;
+    flex-direction: column;
+    margin-top: 5px;
+}
