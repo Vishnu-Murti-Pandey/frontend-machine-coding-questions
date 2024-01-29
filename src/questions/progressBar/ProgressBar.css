@@ -1,0 +1,36 @@
+.progressBarCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.progressBarWrapper {
+    width: 500px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+
+.percentage {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    position: fixed;
+}
+
+.filler {
+    height: 25px;
+    width: 0px;
+    position: absolute;
+    left: 0px;
+    border-radius: 30px;
+    background-color: rgb(72, 188, 72);
+}

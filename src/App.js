@@ -16,6 +16,7 @@ import DebounceThrottle from './questions/handleDebouncingAndThrotling/DebounceT
 import File from './questions/filerExplorer/File';
 import explorer from './questions/filerExplorer/folderData';
 import Password from './questions/passwordGenerator/Password';
+import ProgressBar from './questions/progressBar/ProgressBar';
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <DebounceThrottle /> */}
       {/* <File explorer={explorer} /> */}
       {/* <Calculator /> */}
-      <Password />
+      {/* <Password /> */}
+      <ProgressBar />
     </>
   );
 }
