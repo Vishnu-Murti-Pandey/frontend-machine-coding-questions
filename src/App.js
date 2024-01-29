@@ -15,6 +15,7 @@ import Counter from './questions/incrementCounter/Counter';
 import DebounceThrottle from './questions/handleDebouncingAndThrotling/DebounceThrottle';
 import File from './questions/filerExplorer/File';
 import explorer from './questions/filerExplorer/folderData';
+import Password from './questions/passwordGenerator/Password';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       {/* <WhyDidYouUpdateHook /> */}
       {/* <StepperWrapper /> */}
       {/* <TodoList /> */}
-      <SearchWithPagination />
+      {/* <SearchWithPagination /> */}
       {/* <Slideshow /> */}
       {/* <ModalWrapper /> */}
       {/* <Website /> */}
@@ -34,6 +35,8 @@ function App() {
       {/* <Counter /> */}
       {/* <DebounceThrottle /> */}
       {/* <File explorer={explorer} /> */}
+      {/* <Calculator /> */}
+      <Password />
     </>
   );
 }
