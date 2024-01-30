@@ -17,6 +17,7 @@ import File from './questions/filerExplorer/File';
 import explorer from './questions/filerExplorer/folderData';
 import Password from './questions/passwordGenerator/Password';
 import ProgressBar from './questions/progressBar/ProgressBar';
+import GridLights from './questions/gridLights/GridLights';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <File explorer={explorer} /> */}
       {/* <Calculator /> */}
       {/* <Password /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      <GridLights />
     </>
   );
 }
